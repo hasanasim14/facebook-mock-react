@@ -1,0 +1,13 @@
+* {
+  background-color: #f0f2f5;
+}
+
+.fbheader {
+  letter-spacing: -1px;
+  color: #0866ff;
+  font-size: 28px;
+  text-align: center;
+  align-items: center;
+  margin-top: -20px;
+  font-family: "Klavika", "Letter Faces", "Facebook Letter Faces", sans-serif;
+}
