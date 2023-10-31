@@ -8,7 +8,7 @@ const SignInPage = () => {
         <h2>Log in to Facebook</h2>
         <input type="text" placeholder="Email address or phone number" />
         <br />
-        <input type="text" placeholder="Password" />
+        <input type="password" placeholder="Password" />
         <br />
 
         <button>Log In</button>

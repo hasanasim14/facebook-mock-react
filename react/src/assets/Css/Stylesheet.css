@@ -1,6 +1,6 @@
-* {
+/* * {
   background-color: #f0f2f5;
-}
+} */
 
 .fbheader {
   letter-spacing: -1px;
@@ -10,4 +10,49 @@
   align-items: center;
   margin-top: -20px;
   font-family: "Klavika", "Letter Faces", "Facebook Letter Faces", sans-serif;
+}
+
+.content-border {
+  text-align: center;
+  width: 32%;
+  border: 5px solid white;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 500px;
+}
+
+.SignUpButton {
+  background-color: #00a400;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.TextInputName {
+  height: 35px;
+  margin: 5px;
+  border: 1px solid #d3d3d3;
+  border-color: #d3d3d3;
+  border-radius: 5px;
+  outline: none;
+  width: 45%;
+  font-size: 15px;
+  color: #d3d3d3;
+}
+
+.TextInputName::placeholder {
+  color: #90949c;
+}
+
+.Line {
+  background-color: #d3d3d3;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 10px;
 }
