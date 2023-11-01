@@ -1,3 +1,4 @@
+// import Input from "./Input";
 import RadioInput from "./RadioInput";
 import SignUpButton from "./SignUpButton";
 import TextInput from "./TextInput";
@@ -13,9 +14,11 @@ const Content = () => {
         <div className="Line" />
         <TextInput />
 
-        <p>Gender</p>
+        {/* <p>Gender</p> */}
         <RadioInput />
         <br />
+
+        {/* <Input /> */}
 
         <p>
           People who use our service may have uploaded your contact information

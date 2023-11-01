@@ -2,11 +2,14 @@ const RadioInput = () => {
   return (
     <>
       <div>
+        <p className="ContentText">Gender</p>
         <input
-          type="radio"
-          id="option1"
+          // className="DateSelector"
+          className="RadioInput"
+          // id="option1"
           name="options"
           value="option1"
+          type="radio"
           //   checked={selectedOption === "option1"}
           //   onChange={handleOptionChange}
         />
@@ -15,7 +18,7 @@ const RadioInput = () => {
         {/* <div> */}
         <input
           type="radio"
-          id="option2"
+          // id="option2"
           name="options"
           value="option2"
           //   checked={selectedOption === "option2"}
@@ -26,7 +29,7 @@ const RadioInput = () => {
         {/* <div> */}
         <input
           type="radio"
-          id="option3"
+          // id="option3"
           name="options"
           value="option3"
           //   checked={selectedOption === 'option3'}
