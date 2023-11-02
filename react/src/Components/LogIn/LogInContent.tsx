@@ -1,32 +1,17 @@
+import Input from "./Input";
 import Links from "./Links";
+import LogInButton from "./LogInButton";
 
 const Content = () => {
   return (
     <>
       <div className="content-border">
-        <p style={{fontSize:'18px'}}>Log in to Facebook</p>
-        <input
-          type="text"
-          placeholder="Email address or phone number"
-          className="TextInput"
-        />
-        <input type="password" placeholder="Password" className="TextInput" />
+        <p style={{ fontSize: "18px" }}>Log in to Facebook</p>
 
-        <button className="LogInButton">Log in</button>
-
-        {/* <a href="">Forgotten account?</a>
-        <a href="">Sign up for Facebook</a>
-      */}
-
+        <Input />
+        <LogInButton />
         <Links />
       </div>
-      <p>asdsadad</p>
-      <p>asdsadad</p>
-      <p>asdsadad</p>
-      <p>asdsadad</p>
-      <p>asdsadad</p>
-      <p>asdsadad</p>
-      <p>asdsadad</p>
     </>
   );
 };

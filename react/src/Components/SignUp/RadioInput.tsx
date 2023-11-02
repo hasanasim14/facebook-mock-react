@@ -3,39 +3,35 @@ const RadioInput = () => {
     <>
       <div>
         <p className="ContentText">Gender</p>
-        <input
-          // className="DateSelector"
-          className="RadioInput"
-          // id="option1"
-          name="options"
-          value="option1"
-          type="radio"
-          //   checked={selectedOption === "option1"}
-          //   onChange={handleOptionChange}
-        />
-        <label htmlFor="option1">Male</label>
-        {/* </div> */}
-        {/* <div> */}
-        <input
-          type="radio"
-          // id="option2"
-          name="options"
-          value="option2"
-          //   checked={selectedOption === "option2"}
-          //   onChange={handleOptionChange}
-        />
-        <label htmlFor="option2">Female</label>
-        {/* </div> */}
-        {/* <div> */}
-        <input
-          type="radio"
-          // id="option3"
-          name="options"
-          value="option3"
-          //   checked={selectedOption === 'option3'}
-          //   onChange={handleOptionChange}
-        />
-        <label htmlFor="option3">Custom</label>
+        <div className="RadioInput">
+          <label htmlFor="option1">Male</label>
+          <input
+            className="RadioInput"
+            // id="option1"
+            name="options"
+            value="option1"
+            type="radio"
+          />
+        </div>
+
+        <div className="RadioInput">
+          <label htmlFor="option2">Female</label>
+          <input
+            type="radio"
+            // id="option2"
+            name="options"
+            value="option2"
+          />
+        </div>
+        <div className="RadioInput">
+          <label htmlFor="option3">Custom</label>
+          <input
+            type="radio"
+            // id="option3"
+            name="options"
+            value="option3"
+          />
+        </div>
       </div>
     </>
   );

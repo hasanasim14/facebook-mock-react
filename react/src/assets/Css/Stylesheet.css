@@ -1,6 +1,12 @@
-/* * {
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
   background-color: #f0f2f5;
-} */
+}
 
 .fbheader {
   letter-spacing: -1px;
@@ -14,14 +20,12 @@
 
 .content-border {
   text-align: center;
-  /* padding-top: 1px; */
-  width: 32%;
-  /* border: 5px solid white; */
-  margin: 0 auto;
+  padding-top: 1px;
+  width: 35%;
+  margin: auto;
   background-color: white;
-  /* padding: 10px; */
   border-radius: 10px;
-  min-width: 500px;
+  min-width: 400px;
   box-shadow: -1px 1px 15px 6px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: -1px 0px 50px 1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: -1px 1px 20px 5px rgba(0, 0, 0, 0.15);
@@ -50,20 +54,16 @@
   outline: none;
   width: 45%;
   font-size: 15px;
-  /* color: #d3d3d3; */
 }
 
 .TextInputName::placeholder {
   color: #90949c;
-  /* margin-left: 15%; */
   padding: 10px;
-  /* font-size: 13p; */
 }
 
 .Line {
   background-color: #d3d3d3;
   height: 1px;
-  /* width: 100%; */
   margin-bottom: 10px;
 }
 
@@ -74,22 +74,17 @@
   border-color: #d3d3d3;
   border-radius: 5px;
   outline: none;
-  width: 90%;
+  width: 93%;
   font-size: 15px;
-  /* color: #d3d3d3; */
 }
 
 .TextInput::placeholder {
-  /* color: #d3d3d3; */
   color: #90949c;
   padding: 10px;
-
-  /* text-align: center; */
 }
 
 .ContentText {
   color: #656770;
-  /* justify-content: flex-start; */
   text-align: left;
   font-size: 13px;
   padding-left: 15px;
@@ -99,51 +94,34 @@
 .DateSelector {
   height: 35px;
   margin: 5px;
-  /* border: 1px solid #d3d3d3; */
   border-color: #d3d3d3;
   border-radius: 5px;
   outline: none;
   width: 30%;
   font-size: 15px;
-  /* color: #d3d3d3; */
-}
-
-/* 
-.DateSelector::placeholder {
-  color: #d3d3d3;
-} */
-
-.RadioInput {
-  color: gainsboro;
-  order: 1;
 }
 
 .LogInButton {
   background-color: #1877f2;
   color: white;
   border-radius: 5px;
-  /* padding: auto; */
   padding: 13px;
-  /* max-width: 50%; */
-  width: 90%;
+  width: 94%;
   border: none;
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
-  /* margin: auto; */
   margin-bottom: 10px;
 }
 
+
+
 a {
-  /* color: #1877f2; */
-  /* color: black; */
   text-decoration: none;
   padding: 10px 0;
   display: block;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  /* margin: auto; */
-  /* padding: auto; */
 }
 
 a:hover {
@@ -156,34 +134,26 @@ a:hover {
   text-align: center;
   color: #1c1e21;
   font-family: Arial, Helvetica, sans-serif;
-  /* margin: auto; */
-  margin-top: 25px;
-  /* margin-bottom: 30px; */
+  margin-top: 10px;
   font-weight: bold;
+}
+#HeaderText {
+  color: #606770;
+  margin-top: -22px;
 }
 
 #ContentMessage {
   width: auto;
   color: #777;
   font-size: 11px;
-  /* justify-content: flex-start; */
-  /* align-items: flex-end; */
   text-align: left;
   margin-left: 15px;
   margin-right: 15px;
-
-  /* flex: ; */
 }
 
 #LogInLinks {
-  /* justify-content:; */
-  /* flex-direction: column; */
-  /* display: inline; */
-  /* display: inline-block; */
-  /* margin: auto; */
   display: flex;
   align-items: center;
-  /* padding:; */
   padding-bottom: 10px;
   text-align: center;
   justify-content: center;
@@ -194,7 +164,6 @@ a:hover {
   display: inline;
   text-align: center;
   color: #1877f2;
-  /* text-decoration: none; */
 }
 
 #LogInLinks p {
@@ -207,17 +176,21 @@ a:visited {
   color: #1877f2;
 }
 
-/* ati jati dhoop aur chao */
+.RadioInput {
+  border: 1px solid #d3d3d3;
+  text-align: left;
 
-.radio-container {
-  display: flex;
-  align-items: center;
+  border-radius: 4px;
+  padding: 5px;
+  width: 28%;
+  display: inline-block;
+  margin: 4px;
 }
-.radio-label {
-  margin-right: 10px;
+
+.RadioInput label {
+  margin-left: 5px;
 }
-.radio-input {
-  order: 1; /* Reverses the order of the radio input */
-  border: 1px solid #000; /* Add a black border around the radio input */
-  padding: 4px;
+
+.RadioInput input {
+  justify-content: right;
 }

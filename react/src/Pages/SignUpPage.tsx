@@ -7,7 +7,6 @@ const SignUpPage = () => {
     <>
       <div>
         <Header />
-        {/* <Content /> */}
         <SignUpContent />
       </div>
     </>
