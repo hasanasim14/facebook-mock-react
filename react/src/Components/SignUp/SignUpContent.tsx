@@ -1,4 +1,5 @@
 // import Input from "./Input";
+import DateSelector from "./DateSelector";
 import RadioInput from "./RadioInput";
 import SignUpButton from "./SignUpButton";
 import TextInput from "./TextInput";
@@ -8,23 +9,24 @@ const Content = () => {
     <>
       {/* <div> */}
       <div className="content-border">
-        <h1>Create a new account</h1>
-        <p>It's quick and easy</p>
+        <p id="HeaderTitle">Create a new account</p>
+        <p style={{ color: "#606770" }}>It's quick and easy.</p>
 
         <div className="Line" />
         <TextInput />
 
         {/* <p>Gender</p> */}
+        <DateSelector />
+
         <RadioInput />
-        <br />
 
         {/* <Input /> */}
 
-        <p>
+        <p id="ContentMessage">
           People who use our service may have uploaded your contact information
           to Facebook. Learn more.
         </p>
-        <p>
+        <p id="ContentMessage">
           By clicking Sign Up, you agree to our Terms, Privacy Policy and
           Cookies Policy. You may receive SMS notifications from us and can opt
           out at any time.

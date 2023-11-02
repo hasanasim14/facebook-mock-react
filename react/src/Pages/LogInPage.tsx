@@ -1,4 +1,4 @@
-import Content from "../Components/LogIn/Content";
+import LogInContent from "../Components/LogIn/LogInContent";
 import Header from "../Components/SignUp/Header";
 
 const SignInPage = () => {
@@ -6,7 +6,8 @@ const SignInPage = () => {
     <>
       <div>
         <Header />
-        <Content />
+        {/* <Content /> */}
+        <LogInContent />
         {/* <h2>Log in to Facebook</h2>
         <input type="text" placeholder="Email address or phone number" />
         <br />

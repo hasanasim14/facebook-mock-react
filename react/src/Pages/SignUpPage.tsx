@@ -1,4 +1,4 @@
-import Content from "../Components/SignUp/Content";
+import SignUpContent from "../Components/SignUp/SignUpContent";
 import Header from "../Components/SignUp/Header";
 import "../assets/Css/Stylesheet.css";
 
@@ -7,7 +7,8 @@ const SignUpPage = () => {
     <>
       <div>
         <Header />
-        <Content />
+        {/* <Content /> */}
+        <SignUpContent />
       </div>
     </>
   );

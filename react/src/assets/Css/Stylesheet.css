@@ -14,24 +14,31 @@
 
 .content-border {
   text-align: center;
+  /* padding-top: 1px; */
   width: 32%;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   margin: 0 auto;
   background-color: white;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 10px;
   min-width: 500px;
+  box-shadow: -1px 1px 15px 6px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -1px 0px 50px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -1px 1px 20px 5px rgba(0, 0, 0, 0.15);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .SignUpButton {
   background-color: #00a400;
   color: #fff;
-  padding: 10px 20px;
+  margin: 10px 0 10px 0;
+  padding: 8px 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
+  width: 42%;
 }
 
 .TextInputName {
@@ -43,17 +50,20 @@
   outline: none;
   width: 45%;
   font-size: 15px;
-  color: #d3d3d3;
+  /* color: #d3d3d3; */
 }
 
 .TextInputName::placeholder {
   color: #90949c;
+  /* margin-left: 15%; */
+  padding: 10px;
+  /* font-size: 13p; */
 }
 
 .Line {
   background-color: #d3d3d3;
   height: 1px;
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 10px;
 }
 
@@ -66,27 +76,42 @@
   outline: none;
   width: 90%;
   font-size: 15px;
-  color: #d3d3d3;
+  /* color: #d3d3d3; */
+}
+
+.TextInput::placeholder {
+  /* color: #d3d3d3; */
+  color: #90949c;
+  padding: 10px;
+
+  /* text-align: center; */
 }
 
 .ContentText {
   color: #656770;
   /* justify-content: flex-start; */
   text-align: left;
-  font-size: 15px;
+  font-size: 13px;
+  padding-left: 15px;
+  margin-bottom: 0;
 }
 
 .DateSelector {
   height: 35px;
   margin: 5px;
-  border: 1px solid #d3d3d3;
+  /* border: 1px solid #d3d3d3; */
   border-color: #d3d3d3;
   border-radius: 5px;
   outline: none;
   width: 30%;
   font-size: 15px;
-  color: #d3d3d3;
+  /* color: #d3d3d3; */
 }
+
+/* 
+.DateSelector::placeholder {
+  color: #d3d3d3;
+} */
 
 .RadioInput {
   color: gainsboro;
@@ -98,12 +123,88 @@
   color: white;
   border-radius: 5px;
   /* padding: auto; */
-  padding: 20px;
+  padding: 13px;
   /* max-width: 50%; */
-  width: 50%;
+  width: 90%;
   border: none;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
   margin-top: 10px;
+  /* margin: auto; */
+  margin-bottom: 10px;
+}
+
+a {
+  /* color: #1877f2; */
+  /* color: black; */
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: auto; */
+  /* padding: auto; */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#HeaderTitle {
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: #1c1e21;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: auto; */
+  margin-top: 25px;
+  /* margin-bottom: 30px; */
+  font-weight: bold;
+}
+
+#ContentMessage {
+  width: auto;
+  color: #777;
+  font-size: 11px;
+  /* justify-content: flex-start; */
+  /* align-items: flex-end; */
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  /* flex: ; */
+}
+
+#LogInLinks {
+  /* justify-content:; */
+  /* flex-direction: column; */
+  /* display: inline; */
+  /* display: inline-block; */
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  /* padding:; */
+  padding-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+#LogInLinks a {
+  font-size: 14px;
+  display: inline;
+  text-align: center;
+  color: #1877f2;
+  /* text-decoration: none; */
+}
+
+#LogInLinks p {
+  font-size: 12px;
+  display: inline;
+  margin: 0 10px;
+}
+
+a:visited {
+  color: #1877f2;
 }
 
 /* ati jati dhoop aur chao */

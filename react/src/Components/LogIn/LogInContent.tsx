@@ -1,23 +1,32 @@
+import Links from "./Links";
+
 const Content = () => {
   return (
     <>
       <div className="content-border">
-        <h2>Log in to Facebook</h2>
+        <p style={{fontSize:'18px'}}>Log in to Facebook</p>
         <input
           type="text"
           placeholder="Email address or phone number"
           className="TextInput"
         />
-        <br />
         <input type="password" placeholder="Password" className="TextInput" />
-        <br />
 
-        <button className="LogInButton">Log In</button>
+        <button className="LogInButton">Log in</button>
 
-        <br />
-        <a href="">Forgotten account?</a>
+        {/* <a href="">Forgotten account?</a>
         <a href="">Sign up for Facebook</a>
+      */}
+
+        <Links />
       </div>
+      <p>asdsadad</p>
+      <p>asdsadad</p>
+      <p>asdsadad</p>
+      <p>asdsadad</p>
+      <p>asdsadad</p>
+      <p>asdsadad</p>
+      <p>asdsadad</p>
     </>
   );
 };

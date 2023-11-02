@@ -25,16 +25,17 @@ const TextInput = () => {
             className="TextInput"
           />
         </div>
+
+        {/* 
         <p className="ContentText">Date of birth</p>
-        {/* date of birth kay sath click for more information wala button question mark wala */}
-        {/* <input type="text" placeholder="First Name" /> */}
+        date of birth kay sath click for more information wala button question mark wala
+        <input type="text" placeholder="First Name" />
 
         <select name="" id="" className="DateSelector">
           <option>1</option>
           <option>2</option>
         </select>
 
-        {/* <br /> */}
         <select name="" id="" className="DateSelector">
           <option>Jan</option>
           <option>Feb</option>
@@ -42,12 +43,13 @@ const TextInput = () => {
           <option>Apr</option>
           <option>May</option>
           <option>Jun</option>
-        </select>
+        </select> 
 
         <select className="DateSelector">
           <option>2023</option>
           <option>2022</option>
         </select>
+        */}
       </div>
     </>
   );
